@@ -1,0 +1,180 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* Removes whitespace around the body */
+body {
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+/* Style main article under the header */
+#recipe-main {
+    max-width: 75%;
+    margin: auto;
+    padding: 2em;
+    background-color: white;
+    padding-bottom: 400px;
+}
+
+#toggle {
+    border: none;
+    color: darkred;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-color: white;
+    padding-left: 0;    
+}
+
+#story {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+}
+
+section {
+    padding-bottom: 2em;
+}    
+
+/* Navigation Bar */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+nav h1, nav ul, nav li {
+    display: inline;
+}
+
+#nav-link a {
+    text-decoration: none;
+    padding: .7em;
+    font-weight: 500;
+    color: black;    
+}
+
+#nav-link a:hover {
+    color: white;
+    background-color: #618C03;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #D97904;
+    padding: 2em;    
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 200%;
+}
+
+h2 {
+    position:relative;
+}
+
+h2 span {
+    position: absolute;
+    top: -120px;
+}
+
+/* Ingredient Card Styling */
+#middle {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#ingredient {
+    border: 2px solid black;
+    border-radius: 1em;
+    width: fit-content;
+    box-shadow: 2px 2px 5px black;
+    padding: 0 1em;
+    transform: rotate(-3deg);
+    display: inline-block;
+    background-color: white;    
+}
+
+#ingredient * {
+    font-family: 'Caveat', cursive;
+    font-size: 120%;
+}
+
+#ingredient-title {
+    font-size: 200%;
+}
+
+/* Image Styling */
+
+img#cover {
+    width: 100%;
+      
+}
+
+img#ingredient-image {
+    width: 525px;
+    height: 350px;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-right: 20px;  
+}
+
+img.step-image {
+    width: 255px;
+    height: 170px;
+    display: flex;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    float: left;
+}
+
+/* Steps Styling */
+
+.section-header {
+    background-color: #8C0E03;
+    color: white;
+    padding: 1em;
+    margin-top: 1em;
+    border-radius: 5px;
+}
+
+#step2, #step3, #step4, #step5 {
+    box-shadow: 0px 0px 15px gray;
+    padding: 10px;
+    margin-bottom: 1em;
+    display: none
+}
+
+#step1 {
+    box-shadow: 0px 0px 15px gray;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.step {
+    height: 150px;
+}
+
+#step-list {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#step-list li {
+    list-style-type: none;
+    display: inline;    
+}
+
+#step-list li input {
+    background-color: #F2B705;
+    border: none;
+    padding: 10px 25px;
+    margin: 5px 5px;
+    color: black;
+    border-radius: 5px;;
+}
