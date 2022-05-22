@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Grandma's No-bake cookies</title>
+    <link rel="stylesheet" href="cookiesstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <h1 id="home">Grandma's No-bake Cookies</h1>
+            <ul id="nav-link">
+                <!-- <li><a href="#home">Home</a></li> -->
+                <li><a href="#ingredients">Ingredients</a></li>
+                <li><a href="#steps">Recipe Steps</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article id="recipe-main">
+        <img id="cover" src="static/banner2.jpg" alt="cookies">
+        
+        <section>
+            <p  id="story">Growing up I had two sets of grandparents like a lot of children. My maternal grandparents were a hard working blue collar family. Raising three children in a small town they were able to scrape by but never able to get ahead. While they could not buy the fancy gifts for birthdays and holidays like my other grandparents, what they could do was put in thought, time and love. I always remember my Grandma Jean for the cookies she made. She didn’t just make the cookies for me, she included me in that process and that is where I have the fondest memories. Plus, eating these cookies when they were freshly made is the best.
+            <br><br>
+            That is why I am choosing to share her No-Bake cookies with you. Sometimes called chocolate fudge cookies, chocolate peanut butter fudge cookies or another iteration. These cookies are easy to make, full of rich chocolate, creamy peanut butter and don’t require you to turn on the oven. They are my comfort food when I pick me up and remind me of the time I was able to spend with my grandmother. After her passing, my aunt Debbie carried on the tradition and warm feeling I get when thinking about them.
+            <br><br>
+            It’s a simple recipe with few steps, great for making with children and teaching them how to cook. Let's get started by making sure you have the ingredients below</p>
+            <input id="toggle" type="button" onclick="toggleStory()" value="Show more..."></input>
+        </section>
+        <section>
+            <h2 class="section-header"><span id="ingredients"></span> Ingredients</h2>
+            <div id="middle">
+                <img id="ingredient-image" src="static/ingredients.jpg" alt="cookies">
+                <div id="ingredient">
+                    <h3 id="ingredient-title">Ingredients</h2>
+                    <ul>
+                        <li>1 cube butter</li>
+                        <li>2 cups sugar</li>
+                        <li>1/2 cup milk</li>
+                        <li>1 heaping tablespoon peanut butter</li>
+                        <li>1/4 cup cocoa poweder (I prefer Hershey's baking cocoa)</li>
+                        <li>1 teaspoon vanilla extract</li>
+                        <li>3 cups quick oats</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 class="section-header"><span id="steps"></span> Directions</h2>
+            <ul id="step-list">
+                <li><input type="button" value="Step 1" onclick="toggleStep('step1')"></li>
+                <li><input type="button" value="Step 2" onclick="toggleStep('step2')"></li>
+                <li><input type="button" value="Step 3" onclick="toggleStep('step3')"></li>
+                <li><input type="button" value="Step 4" onclick="toggleStep('step4')"></li>
+                <li><input type="button" value="Step 5" onclick="toggleStep('step5')"></li>
+                <li><input type="button" value="Display all" id="DisplayAll" onclick="toggleAllSteps()"></li>
+            </ul>
+            <div class="step" id="step1">
+                <img class="step-image" src="static/step1.jpg" alt="cookies">
+
+                <h3>Step one:</h3>
+            
+                <p>You start with a medium-large pan on the stovetop. Add in <strong>1 cube of butter</strong>, <strong>2 cups of sugar</strong> and <strong>½ cup of milk</strong> and bring it to a rolling boil.</p>
+            </div>
+            
+            <div class="step" id="step2">
+                <img class="step-image" src="static/step2.jpg" alt="cookies">
+                <h3>Step two:</h3>
+                <p>Once boiling you drop in a heaping <strong>tablespoon of peanut butter</strong> and stir till melted then remove pan from heat.</p>
+            </div>
+            <div class="step" id="step3">
+                <img class="step-image" src="static/step3.jpg" alt="cookies">
+                <h3>Step three:</h3>
+                <p>Mix in <strong>¼ cup of cocoa</strong> and <strong>1 teaspoon of vanilla extract</strong> until the consistency is smooth.</p>
+            </div>
+            
+            <div class="step" id="step4">
+                <img class="step-image" src="static/step4.jpg" alt="cookies">
+                <h3>Step four:</h3>
+                <p>Pour in <strong>3 cups of quick oats</strong> and stir until they are well blended.</p>
+            </div>
+            
+            <div class="step" id="step5">
+                <img class="step-image" src="static/step5.jpg" alt="cookies">
+                <h3>Step five:</h3>
+                <p>Drop a spoonful of mixture onto some wax paper, let cool (or if brave enough eat right away) then enjoy.</p>
+            </div>
+        </section>
+        
+    </article>
+    
+    <script src="cookiesscript.js"></script>
+
+</body>
+</html>
