@@ -1,0 +1,151 @@
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+p {
+    line-height: 175%;
+}
+
+header {
+    border-bottom: 15px solid #70735D;
+    border-top: 15px solid #F28705;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+section {
+    margin-bottom: 3em;
+}
+
+.body-container {
+    padding: 0.01em 16px;
+    margin-bottom: 2em;
+    margin-top: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    max-width: 1150px;
+    margin: auto;
+   
+}
+
+.destination {
+    font-size: 2em;
+}
+
+.container {
+    margin: 3em 1em;
+    max-width: 70%;
+}
+
+.card {
+    max-width: 530px;
+    padding: 10px;    
+    margin: 10px;
+}
+
+ .card:hover {
+    border: 5px solid #70735D;
+    margin: 5px;
+} 
+
+.card-img {
+    border-top: 10px solid #178EBF;
+}
+
+.attraction {
+    color: #70735d;
+    text-transform: uppercase;
+}
+
+.header {
+    display: inline-block;
+    padding: 5px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 900;
+    
+}
+
+.intro {
+    margin-top: 1em;
+    padding: 0em 2em 0em 2em;
+}
+
+.nav {
+    padding: 1em;
+    border-radius: 10px;
+}
+
+a {    
+    color: black;
+}
+
+.float-left {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    transform: rotateZ(3deg);
+
+}
+
+.float-right {
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    transform: rotateZ(-3deg);
+
+}
+
+.nav:hover {
+    color: white;
+    background-color: #70735D;
+}
+
+.link:hover {
+    background-color: #70735D;
+}
+
+.destination {
+    display: inline;
+    margin-left: .5em;
+}
+
+img.sm {
+    width: 50px;
+}
+
+img.md {
+    max-width: 40%;
+    /* border: 2px solid black; */
+    box-shadow: 0px 0px 10px #70735D;
+    border: 5px solid white;
+}
+
+
+/* Color Theme Swatches in Hex */
+.color-1 { color: #034C8C; }
+.color-2 { color: #70735D; }
+.color-3 { color: #F2B705; }
+.color-4 { color: #F29F05; }
+.color-5 { color: #F28705; }
+
+/* Color Theme Swatches in Hex */
+.bg-1 { background-color: #034C8C; }
+.bg-2 { background-color: #70735D; }
+.bg-3 { background-color: #F2B705; }
+.bg-4 { background-color: #F29F05; }
+.bg-5 { background-color: #F28705; }
